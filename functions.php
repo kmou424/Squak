@@ -32,7 +32,7 @@ function themeConfig($form) {
     $Analytic = new Typecho_Widget_Helper_Form_Element_Textarea('Analytic', NULL, NULL, _t('填写什么网站记录代码，类似Google Analytics等'), _t('给你加进Header，可以不填'));
     $form->addInput($Analytic);
     
-    $navbarIcons = new Typecho_Widget_Helper_Form_Element_Textarea('navbarIcons', NULL, _t('fa fa-github$$Github$$https://github.com/Liupaperbox/'), _t('自定义主页上面的标志，输错就爆炸哦'), _t('一行一个，格式为：图标的class$$显示文字$$点击跳转的链接'));
+    $navbarIcons = new Typecho_Widget_Helper_Form_Element_Textarea('navbarIcons', NULL, _t('fa fa-github$$Github$$https://github.com/kmou424/'), _t('自定义主页上面的标志，输错就爆炸哦'), _t('一行一个，格式为：图标的class$$显示文字$$点击跳转的链接'));
     $form->addInput($navbarIcons);
     
     $navbar = new Typecho_Widget_Helper_Form_Element_Radio('navbar',
